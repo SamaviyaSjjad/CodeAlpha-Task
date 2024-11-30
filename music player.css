@@ -1,0 +1,89 @@
+
+    /* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #600dbe, #e79c11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.music-player {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cover {
+  margin: 20px 0;
+}
+
+.album-art {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #f9a8d4;
+}
+
+.info {
+  margin: 10px 0;
+}
+
+.song-title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.artist {
+  font-size: 14px;
+  color: gray;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.seek-bar {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons button {
+  background: #f9a8d4;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #fa7cb5;
+}

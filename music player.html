@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="music player.css">
+
+</head>
+<body>
+  <div class="music-player">
+    <div class="header">
+      <button class="back-btn">&lt;</button>
+      <button class="menu-btn">≡</button>
+    </div>
+    <div class="cover">
+      <img src="https://www.shutterstock.com/image-photo/retro-golden-microphone-headphones-on-600nw-694098472.jpg" alt="Album Art" class="album-art">
+    </div>
+    <div class="info">
+      <h2 class="song-title">Song Title</h2>
+      <p class="artist">Artist Name</p>
+    </div>
+    <div class="controls">
+      <input type="range" class="seek-bar" value="0" min="0" max="100">
+      <div class="buttons">
+        <button class="prev-btn">⏮</button>
+        <button class="play-btn">⏵</button>
+        <button class="next-btn">⏭</button>
+      </div>
+    </div>
+    <audio id="audio"></audio>
+  </div>
+  <script src="music player.js"></script>
+</body>
+</html>

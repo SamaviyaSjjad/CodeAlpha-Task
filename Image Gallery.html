@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="Image Gallery.css">
+</head>
+<body>
+    <div class="gallery">
+        <h1 style="background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD0LSWhVSj-ux8YtaZNq7iV15Qr_-Blc8K-Q&s');">Image Gallery</h1>
+        <!-- Add images -->
+        <img src="img1.jpeg" alt="Image 1" onclick="openLightbox(0)">
+        <img src="img2.webp" alt="Image 2" onclick="openLightbox(1)">
+        <img src="img3.jpeg" alt="Image 3" onclick="openLightbox(2)">
+        <img src="img4.jpeg" alt="Image 4" onclick="openLightbox(3)">
+        <img src="img5.jpeg" alt="Image 5" onclick="openLightbox(4)">
+        <img src="img6.jpeg" alt="Image 6" onclick="openLightbox(4)">
+        <img src="img7.jpeg" alt="Image 7" onclick="openLightbox(4)">
+        <img src="img8.webp" alt="Image 8" onclick="openLightbox(4)">
+        <img src="img9.webp" alt="Image 9" onclick="openLightbox(4)">
+        <img src="img10.jpeg" alt="Image 10" onclick="openLightbox(4)">
+        <img src="img11.webp" alt="Image 11" onclick="openLightbox(4)">
+        <img src="img12.webp" alt="Image 12" onclick="openLightbox(4)">
+        <img src="img13.jpeg" alt="Image 13" onclick="openLightbox(4)">
+        <img src="img14.webp" alt="Image 14" onclick="openLightbox(4)">
+        <img src="img15.webp" alt="Image 15" onclick="openLightbox(4)">
+        <img src="img16.jpeg" alt="Image 16" onclick="openLightbox(4)">
+        <img src="img17.jpeg" alt="Image 17" onclick="openLightbox(4)">
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-image" id="lightboxImage" alt="Current Image">
+        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="next" onclick="changeImage(1)">&#10095;</button>
+    </div>
+
+    <script src="Image Gallery.js"></script>
+</body>
+</html>
